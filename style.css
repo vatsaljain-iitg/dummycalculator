@@ -1,0 +1,52 @@
+.container {
+    margin-top: 2em;
+}
+
+.box {
+    min-width: 18em;
+    max-width: 30em;
+    max-height: 60em;
+    min-height: 36em;
+    border: 2px solid black;
+    margin: auto;
+    background-color: grey;
+}
+
+.box1 {
+    margin: 1em;
+    max-height: 11em;
+    min-height: 6.6em;
+    margin: 1em;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box2 {
+    max-height: 46em;
+    min-height: 27.6em;
+    background-color: grey;
+    /* margin: 1em; */
+    /* border: 2px solid black; */
+}
+
+.lap {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 18%;
+    margin: 1em;
+    min-height: 4.8em;
+    max-height: 8em;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0.8em;
+}
